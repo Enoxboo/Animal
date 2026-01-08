@@ -5,5 +5,5 @@ void main() {
     IO.println(vache.getName());
     vache.makeSound();
 
-    Animal.eat();
+    Animal.sleep();
 }

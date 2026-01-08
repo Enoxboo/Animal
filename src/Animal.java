@@ -17,7 +17,7 @@ public abstract class Animal {
         return age;
     }
 
-    static void eat() {
-        IO.println("Miam");
+    static void sleep() {
+        IO.println("Zzzzz...");
     }
 }
