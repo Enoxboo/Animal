@@ -12,5 +12,4 @@ public class Dog extends Animal {
     public void eat() {
         IO.println(getName() + " mange les croquettes de chieng.");
     }
-
 }

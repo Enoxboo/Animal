@@ -1,6 +1,7 @@
 public abstract class Animal {
     private String name;
     private int age;
+    public int size;
 
     public Animal(String name, int age) {
         this.name = name;
@@ -28,4 +29,18 @@ public abstract class Animal {
     public void eat(String food) {
         IO.println(getName() + " mange " + food + ".");
     }
+
+    protected void digest() {
+        IO.println(name + " digère.");
+    }
+
+    public void eatAndDigest(String food) {
+        eat(food);
+        digest();
+    }
+
+    private int calculateEnergyLevel() {
+        return 100 - (age * 2);
+    }
+
 }
