@@ -1,3 +1,7 @@
+// TP 1
 void main() {
-    IO.println("Hello World!");
+    Cow vache = new Cow("Vache", 2);
+
+    IO.println(vache.getName());
+    vache.makeSound();
 }
