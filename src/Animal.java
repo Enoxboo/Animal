@@ -20,4 +20,8 @@ public abstract class Animal {
     static void sleep() {
         IO.println("Zzzzz...");
     }
+
+    public void eat() {
+        IO.println(name + " mange.");
+    }
 }

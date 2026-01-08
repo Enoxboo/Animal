@@ -1,9 +1,8 @@
-// TP 2
+// TP 3
 void main() {
     Cow vache = new Cow("Vache", 2);
+    Dog chien = new Dog("Paf", 5);
 
-    IO.println(vache.getName());
-    vache.makeSound();
-
-    Animal.sleep();
+    chien.eat();
+    vache.eat();
 }
