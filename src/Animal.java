@@ -24,4 +24,8 @@ public abstract class Animal {
     public void eat() {
         IO.println(name + " mange.");
     }
+
+    public void eat(String food) {
+        IO.println(getName() + " mange " + food + ".");
+    }
 }
