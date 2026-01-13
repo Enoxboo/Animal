@@ -11,4 +11,8 @@ void main() {
     animalsList.add((Animal) pet1);
     animalsList.add(chien);
     IO.println(animalsList);
+
+    Owner owner = new Owner("Matteo");
+    owner.addPet(new Dog("Alexandre", 3));
+    owner.playWithAllPets();
 }
