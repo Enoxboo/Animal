@@ -1,4 +1,4 @@
-// TP 7
+// TP 8
 void main() {
     Dog chien = new Dog("Paf", 5);
 
